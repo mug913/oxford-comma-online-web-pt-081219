@@ -7,7 +7,9 @@ when 1
   array.join(" and ") 
   when 3
     hold = array.pop
-    array.push("and")
+    third = "and " + hold
+    array << third
+    array.
   else 
     array.join(", ")
   end
