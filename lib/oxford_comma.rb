@@ -9,7 +9,7 @@ when 1
     hold = array.pop
     third = "and " + hold
     array << third
-    array.
+    array.join(", ")
   else 
     array.join(", ")
   end
