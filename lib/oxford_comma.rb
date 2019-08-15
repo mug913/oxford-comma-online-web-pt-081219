@@ -7,10 +7,13 @@ when 1
   array.join(" and ") 
   when 3
     hold = array.pop
-    third = "and " + hold
-    array << third
+    last = "and " + hold
+    array << last
     array.join(", ")
   else 
+    hold = array.pop
+    last = "and " + hold
+    array << last
     array.join(", ")
   end
 end
